@@ -7,9 +7,9 @@ function Restaurants() {
   return (
     <div>
       <ul>
-        {restaurants.map((restaurant) => (
+        {restaurants.map((restaurant) => 
           <li key={restaurant.name}>{restaurant.name}</li>
-        ))}
+        )}
       </ul>
     </div>
   );
